@@ -42,7 +42,6 @@ jobs:
         with:
           payload: |
             {
-              "text": "CICD Submission",
               "blocks": [
                 {
                   "type": "header",
@@ -62,7 +61,12 @@ jobs:
                     {
                       "type": "mrkdwn",
                       "text": "*Matriculation:*\nA0265094Y"
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "section",
+                  "fields": [
                     {
                       "type": "mrkdwn",
                       "text": "*Email:*\n<mailto:e1045769@u.nus.edu|e1045769@u.nus.edu>"
