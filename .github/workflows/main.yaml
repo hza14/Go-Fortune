@@ -47,7 +47,7 @@ jobs:
                   "type": "header",
                   "text": {
                     "type": "plain_text",
-                    "text": "DipSA55 CI/CD",
+                    "text": "DipSA55 CI/CD Assignment Submission",
                     "emoji": true
                   }
                 },
