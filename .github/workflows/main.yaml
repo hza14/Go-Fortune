@@ -78,7 +78,7 @@ jobs:
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "*Deployment:*\n<https://helpful-advertisement-production.up.railway.app/ | https://helpful-advertisement-production.up.railway.app/>"
+                      "text": "*Deployment:*\n<https://go-fortune-production-d4bc.up.railway.app/ | https://go-fortune-production-d4bc.up.railway.app/>"
                     }
                   ]
                 },
@@ -86,7 +86,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "<https://helpful-advertisement-production.up.railway.app/ | Open Application>"
+                    "text": "<https://go-fortune-production-d4bc.up.railway.app/ | Open Application>"
                   }
                 }
               ]
