@@ -37,7 +37,7 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}   
 
       - name: Check variables
-        run: RAILWAY_STATIC_URL
+        run: railway run RAILWAY_STATIC_URL
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}     
 
