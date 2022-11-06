@@ -38,7 +38,7 @@ jobs:
 
       - name: Set URL Value
         run: | 
-          echo "RAILWAY_STATIC_URL=railway vars get RAILWAY_STATIC_URL" >> $GITHUB_ENV
+          echo "RAILWAY_STATIC_URL=$(railway vars get RAILWAY_STATIC_URL)" >> $GITHUB_ENV
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }} 
 
