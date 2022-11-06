@@ -92,7 +92,7 @@ jobs:
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "*Deployment:*\n<"${{ env.RAILWAY_STATIC_URL }}" | "${{ env.RAILWAY_STATIC_URL }}">"
+                      "text": "*Deployment:*\n<${{ env.RAILWAY_STATIC_URL }} | ${{ env.RAILWAY_STATIC_URL }}>"
                     }
                   ]
                 },
@@ -100,7 +100,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "<"${{ env.RAILWAY_STATIC_URL }}" | Open Application>"
+                    "text": "<${{ env.RAILWAY_STATIC_URL }} | Open Application>"
                   }
                 }
               ]
