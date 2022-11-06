@@ -37,7 +37,9 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}   
 
       - name: Check environment
-        run: railway environment    
+        run: railway environment  
+        env:
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}     
 
       - name: Send custom JSON data to Slack workflow
         id: slack
