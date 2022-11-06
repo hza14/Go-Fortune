@@ -37,9 +37,10 @@ jobs:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}   
 
       - name: Check variables
-        run: railway run RAILWAY_STATIC_URL
+        run: railway vars get RAILWAY_STATIC_URL
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}     
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }} 
+          RAILWAY_STATIC_URL: railway vars get RAILWAY_STATIC_URL   
 
       - name: Send custom JSON data to Slack workflow
         id: slack
