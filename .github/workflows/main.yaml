@@ -92,7 +92,7 @@ jobs:
                   "fields": [
                     {
                       "type": "mrkdwn",
-                      "text": "*Deployment:*\n<https://go-fortune-production-d4bc.up.railway.app/ | https://go-fortune-production-d4bc.up.railway.app/>"
+                      "text": "*Deployment:*\n<"${{ env.RAILWAY_STATIC_URL }}" | "${{ env.RAILWAY_STATIC_URL }}">"
                     }
                   ]
                 },
@@ -100,7 +100,7 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "<https://go-fortune-production-d4bc.up.railway.app/ | Open Application>"
+                    "text": "<"${{ env.RAILWAY_STATIC_URL }}" | Open Application>"
                   }
                 }
               ]
