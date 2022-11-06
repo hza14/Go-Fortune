@@ -42,10 +42,6 @@ jobs:
         env:
           RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }} 
 
-      - name: Check URL
-        run: |
-          echo "${{ env.RAILWAY_STATIC_URL }}"
-
       - name: Send custom JSON data to Slack workflow
         id: slack
         uses: slackapi/slack-github-action@v1.23.0
